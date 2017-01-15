@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/canvas/touch"
   ],
   "window":{
     "navigationBarBackgroundColor": "#000",
@@ -18,6 +19,9 @@
     }, {
       "pagePath": "pages/logs/logs",
       "text": "日志"
+    }, {
+      "pagePath": "pages/canvas/touch",
+      "text": "画布"
     }]
   },
   "networkTimeout": {
