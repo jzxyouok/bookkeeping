@@ -4,20 +4,20 @@ Page({
     y: 0,
     hidden: true
   },
-  start: function(e) {
+  start: function (e) {
     this.setData({
       hidden: false,
       x: e.touches[0].x,
       y: e.touches[0].y
     })
   },
-  move: function(e) {
+  move: function (e) {
     this.setData({
       x: e.touches[0].x,
       y: e.touches[0].y
     })
   },
-  end: function(e) {
+  end: function (e) {
     this.setData({
       hidden: true
     })

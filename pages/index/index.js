@@ -3,7 +3,7 @@ Page({
   data: { // 页面的初始数据
     motto: 'Hello World'
   },
-  onLoad: function() { // 生命周期函数--监听页面加载
+  onLoad: function () { // 生命周期函数--监听页面加载
     console.log('onLoad')
     app.getUserInfo(userInfo => { // 调用应用实例的方法获取全局数据
       this.setData({ // 更新数据
@@ -38,7 +38,7 @@ Page({
     }
   },
   // 开发者可以添加任意的函数或数据到 object 参数中，在页面的函数中用 this 可以访问
-  bindViewTap: function(event) {
+  bindViewTap: function (event) {
     console.log(`bindViewTap: ${event}`)
     this.setData({ // 更新数据
       motto: `Hello ${this.data.userInfo.nickName}`

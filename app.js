@@ -12,27 +12,27 @@ App({
    * 生命周期函数--监听小程序显示
    * 当小程序启动，或从后台进入前台显示，会触发 onShow
    */
-  onShow : () => {
+  onShow: () => {
     console.log('onShow')
   },
   /**
    * 生命周期函数--监听小程序隐藏
    * 当小程序从前台进入后台，会触发 onHide
    */
-  onHide : () => {
+  onHide: () => {
     console.log('onHide')
   },
   /**
    * 错误监听函数
    * 当小程序发生脚本错误，或者 api 调用失败时，会触发 onError 并带上错误信息
    */
-  onError : msg => {
+  onError: msg => {
     console.error(`error: $msg`)
   },
   /**
    * 其他函数
    */
-  getUserInfo: function(cb) {
+  getUserInfo: function (cb) {
     if (this.globalData.userInfo) {
       typeof cb == 'function' && cb(this.globalData.userInfo)
     } else {

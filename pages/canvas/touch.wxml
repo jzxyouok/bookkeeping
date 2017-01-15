@@ -1,8 +1,4 @@
-<canvas canvas-id="myCanvas"
-  style="margin: 5px; border: 1px solid #d3d3d3; width: 375px; height: 525px"
-  bindtouchstart="start"
-  bindtouchmove="move"
-  bindtouchend="end"/>
+<canvas canvas-id="myCanvas" style="margin: 5px; border: 1px solid #d3d3d3; width: 375px; height: 525px" bindtouchstart="start" bindtouchmove="move" bindtouchend="end" />
 <view hidden="{{hidden}}">
   Coordinates: ({{x}}, {{y}})
 </view>
